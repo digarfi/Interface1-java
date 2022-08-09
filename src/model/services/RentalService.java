@@ -8,8 +8,8 @@ public class RentalService {
 	private Double pricePerHour;
 	private Double PricePerDay;
 	
-	//associacao
-	private BrazilTaxService taxService;
+	//associacao e interface
+	private TaxService taxService;
 
 	public RentalService(Double pricePerHour, Double pricePerDay, BrazilTaxService taxService) {
 		super();
